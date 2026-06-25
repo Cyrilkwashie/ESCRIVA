@@ -165,6 +165,20 @@ export const songs = [
     story: "Hwang Hyunjin — our pick, always.",
     image: "/media/videos/HWANG HYUJIN.jpg",
   },
+  {
+    title: "Stereo Hearts",
+    story: "Gym Class Heroes — one of ours.",
+    embedUrl:
+      "https://open.spotify.com/embed/track/7bPdJVxiYHrxJ7q4g5VoWI?utm_source=generator&theme=0",
+    embedHeight: 152,
+  },
+  {
+    title: "As It Was",
+    story: "Harry Styles — always hits.",
+    embedUrl:
+      "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
+    embedHeight: 152,
+  },
 ];
 
 export const letter = [
