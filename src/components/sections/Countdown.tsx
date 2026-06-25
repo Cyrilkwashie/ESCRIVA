@@ -141,7 +141,7 @@ export default function Countdown() {
           transition={{ delay: 0.5 }}
           className="mt-24 font-body text-xs uppercase tracking-[0.3em] text-cream/30"
         >
-          Made with love — {new Date().getFullYear()}
+          I LOVE YOU
         </motion.footer>
       </div>
     </section>
