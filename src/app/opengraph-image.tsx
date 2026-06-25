@@ -53,19 +53,6 @@ export default function OpenGraphImage() {
 
         <div
           style={{
-            fontSize: 22,
-            letterSpacing: "0.45em",
-            textTransform: "uppercase",
-            color: brand.gold,
-            fontFamily: "system-ui, sans-serif",
-            marginBottom: 28,
-          }}
-        >
-          A cinematic tribute
-        </div>
-
-        <div
-          style={{
             fontSize: 108,
             fontWeight: 300,
             color: brand.cream,

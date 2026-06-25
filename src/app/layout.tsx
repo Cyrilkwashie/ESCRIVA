@@ -20,7 +20,7 @@ const dmSans = DM_Sans({
 
 const siteUrl = getSiteUrl();
 const title = "XIX";
-const description = `${siteConfig.tagline} A cinematic birthday tribute for her 19th.`;
+const description = siteConfig.tagline;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -37,7 +37,6 @@ export const metadata: Metadata = {
     "birthday",
     "19th birthday",
     "love letter",
-    "cinematic tribute",
   ],
   category: "personal",
   manifest: "/manifest.webmanifest",
