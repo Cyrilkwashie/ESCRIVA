@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# For Escriva — A Cinematic Tribute Site
 
-## Getting Started
+A dark, editorial love letter built with Next.js 14, Framer Motion, and Tailwind CSS.
 
-First, run the development server:
+## Quick start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Personalize it (do this tonight!)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Everything lives in **`src/data/content.ts`**:
 
-## Learn More
+| What | Where |
+|------|--------|
+| Her name, tagline, birthday date | `siteConfig` |
+| Timeline milestones | `timeline` |
+| 50 reasons you love her | `reasons` |
+| Love letter | `letter` |
+| Spotify songs | `songs` (replace embed URLs) |
+| Personality traits | `traits` |
 
-To learn more about Next.js, take a look at the following resources:
+## Add your photos & videos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Drop files into `public/media/`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+public/media/
+  photos/
+    universe.jpg      ← big editorial photo (Section 02)
+    timeline-1.jpg    ← timeline thumbnails
+    moment-1.jpg      ← gallery photos
+  videos/
+    hero-1.mp4        ← hero crossfade (3 videos)
+    hero-2.mp4
+    hero-3.mp4
+    countdown.mp4     ← ambient background (Section 08)
+```
 
-## Deploy on Vercel
+Until you add your own files, the site uses placeholder stock media automatically.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy to Vercel (free)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push to GitHub
+2. Import the repo at [vercel.com](https://vercel.com)
+3. Deploy — done in ~2 minutes
+
+Or run locally and share your network URL for a private preview.
+
+---
+
+Happy 19th birthday, Escriva. ♥
